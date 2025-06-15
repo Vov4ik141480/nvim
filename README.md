@@ -14,13 +14,12 @@
 - **🌲 NvimTree** — файловый менеджер
 - **🔍 Telescope** — fuzzy поиск файлов, текста, буферов
 - **🧠 LSP + Mason** — автодополнение и подсказки для:
-  - Python (`pyright`, `ruff`)
+  - Python (`pyright`)
   - JavaScript/TypeScript (`tsserver`)
   - HTML/CSS (`html`, `cssls`)
   - Rust (`rust_analyzer`)
-  - Go (`gopls`)
 - **🧼 Formatters/Linters** — via `null-ls`:
-  - `black`, `ruff`, `prettier`, `stylua`, `gofmt`, `rustfmt`
+  - `pyright`, `prettier`, `stylua`, `gofmt`, `rustfmt`
 - **📜 Bufferline** — вкладки по буферам
 - **🌈 Gitsigns** — интеграция с Git
 - **🧠 Lspsaga** — улучшенный UI для LSP
