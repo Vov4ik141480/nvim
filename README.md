@@ -52,11 +52,28 @@
 
 ## 🔧 Установка
 
+Перед использованием необходимо установить следующие зависимости:
+
 ```bash
-# Клонируем в нужное место
-git clone https://github.com/Vov4ik141480/nvim ~/.config/nvim
+brew install neovim git curl ripgrep fd lua
+```
+
+## 📁 Структура проекта
+```text
+dotfiles/
+├── nvim/
+│   ├── init.lua
+│   └── lua/
+│       ├── core/
+│       └── plugins/
+```
+
+## 🚀 Быстрый старт
+```bash
+# Клонировать конфиг
+mkdir -p ~/.config/nvim && cd ~/.config/nvim
+git clone https://github.com/cmRme/nvim.git ~/config/nvim
 
 # Открываем nvim — Lazy установит плагины
-nvim
-
-
+nvim .
+```
